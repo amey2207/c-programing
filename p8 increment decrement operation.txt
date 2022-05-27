@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    printf("A's value is now %d\n",a++);
+    printf("A's value is now %d\n",a);
+     
+    a=1;
+    printf("A's value is now %d\n",++a);
+    printf("A's value is now %d\n",a);
+    
+    a=1;
+    printf("A's value is now %d\n",a--);
+    printf("A's value is now %d\n",a);
+    
+    a=1;
+    printf("A's value is now %d\n",--a);
+    printf("A's value is now %d\n",a);
+    
+    return 0;
+}
+
+
